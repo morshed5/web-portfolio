@@ -9,16 +9,17 @@ h1{
 p{
     color: dimgray;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 3%;
+    margin-left: 5%;
     padding: 2%;
     text-align: justify;
 }
+
 .half-width img{
     width: 100%;
 }
@@ -48,10 +49,31 @@ section{
     background-position: right;
 }
 
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.expreances-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#bdr{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
 
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
 
-
-
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
